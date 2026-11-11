@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "n_per_group_formula": 25737,
+    "n_per_group_statsmodels": 25727,
+    "n_per_group": 25737,
+    "raw_days": 11,
+    "days": 14,
+    "n_expected_per_group": 35000,
+    "mde_planned": 0.005029494817103765,
+    "mde_one_week": 0.007112779782233333
+  },
+  "quality": {
+    "rows_raw": 70210,
+    "duplicate_rows": 210,
+    "duplicate_user_ids": 210,
+    "missing_required": 0,
+    "bad_variant_values": 0,
+    "rows_clean": 70000,
+    "order_fields_consistent": true
+  },
+  "srm": {
+    "n_A": 34885,
+    "n_B": 35115,
+    "share_B": 0.5016428571428572,
+    "chi2": 0.7557142857142857,
+    "p": 0.3846730627355086,
+    "ok": true
+  },
+  "decision": "نطلق",
+  "reason": "الأثر إيجابي بثقة 95% وكل مقاييس الحماية ضمن الحدود.",
+  "primary": {
+    "mean_A": 0.06016912713200516,
+    "mean_B": 0.06615406521429588,
+    "diff": 0.005984938082290725,
+    "ci_low": 0.002381375162032309,
+    "ci_high": 0.00958850100254914,
+    "se": 0.0018385862947905476,
+    "p": 0.0011358720620230243,
+    "z": 3.254512387747129,
+    "relative_lift": 0.09946858742292136
+  },
+  "adjusted": {
+    "diff": 0.005938151621148545,
+    "ci_low": 0.002351013118715164,
+    "ci_high": 0.009525290123581926,
+    "se": 0.0018302063357940616,
+    "p": 0.0011764637162980673,
+    "variance_reduction": 0.00909488101461653
+  },
+  "annual_profit_million_sar": {
+    "diff": 0.48852396895672634,
+    "ci_low": 0.1575566540076753,
+    "ci_high": 0.8194912839057773
+  },
+  "novelty": {
+    "week1": 0.005198987942513104,
+    "week2": 0.006792130170869659,
+    "interaction_p": 0.6648767777431506
+  },
+  "aa_false_positive_rate": 0.054
+}
